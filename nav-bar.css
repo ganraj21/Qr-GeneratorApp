@@ -25,7 +25,7 @@
   margin-left: 10px;
 }
 .nav ul {
-  /* right: 0; */
+  right: 0;
   display: flex;
   padding: 10px;
   text-decoration: none;
@@ -43,7 +43,9 @@
   text-decoration: none;
   list-style: none;
 }
-
+#nav-menu {
+  display: flex;
+}
 a {
   padding: 9px 20px;
   color: white;
@@ -60,10 +62,7 @@ a:hover {
 #nav-bar {
   display: none;
 }
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
+
 .l {
   position: fixed;
 }
@@ -75,7 +74,9 @@ a:hover {
   .navbar .logo h1 {
     font: 10px;
   }
-
+  #nav-menu {
+    display: none;
+  }
   #nav-bar {
     display: flex;
   }
