@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 18px;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+}
+.social_links {
+  bottom: 0;
+}
+.social_links a {
+  padding: 9px 20px;
+  color: black;
+  background-color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR-Code-Generator</title>
+    <link rel="stylesheet" href="./qr-code.css" />
+    <link rel="stylesheet" href="./nav-bar.css" />
+    <link rel="stylesheet" href="./social_links.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <h1>QR Code</h1>
+      </div>
+      <div class="nav">
+        <i class="fas fa-solid fa-bars navbars" id="nav-bar"></i>
+        <i class="fas fa-solid fa-xmark crossbar"></i>
+        <div class="topnav">
+          <ul id="nav-menu" class="l">
+            <li class="nav-item"><a href="./about.html">Home</a></li>
+            <li class="nav-item"><a href="#">Services</a></li>
+            <li class="nav-item"><a href="#">Login</a></li>
+            <li class="nav-item"><a href="#">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- ----- nav-bar end---- -->
+
+    <div class="division">
+      <div class="wrapper">
+        <header>
+          <h1>QR Code Generator</h1>
+          <p>Paste a url or enter text to create OR code</p>
+        </header>
+        <div class="form">
+          <input type="text" placeholder="Enter text or url" />
+          <button>Generate QR Code</button>
+        </div>
+        <div class="qr-code">
+          <img src="" alt="qr-code" />
+        </div>
+      </div>
+    </div>
+    <!-- ------ QR-code div end ------ -->
+
+    <div class="footer">
+      <div class="social_links">
+        <a href="#">Linked In</a>
+        <a href="#">Twitter</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+    <!-- ------ Social-Links end ------ -->
+    <script src="./script.js"></script>
+  </body>
+</html>
